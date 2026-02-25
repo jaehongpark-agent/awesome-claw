@@ -28,11 +28,11 @@ Andrej Karpathy가 AI 스택의 새로운 레이어로 **Claw**를 정의했다:
 기존 AI 에이전트는 여전히 **Human in the loop** 패러다임 안에 있다 — 사용자가 명령하고, AI가 응답하고, 사용자가 검토한다. Claw는 이 루프를 벗어난다. Karpathy의 표현대로 집 안의 유령(ghost)처럼 하드웨어 위에 상주하며, 당신이 자는 동안에도 자율적으로 디지털 생활을 오케스트레이션한다.
 
 ```
-Human in the loop ──────── AI in the loop ──────── Claw in the loop
-     ↑                          ↑                        ↑
-  사용자가 운전한다.         AI가 보조하고,            AI가 24/7 운영한다.
-  AI가 응답한다.            사용자가 승인한다.         사용자는 관찰한다.
-  (ChatGPT, Copilot)       (Claude Code, Cursor)    (OpenClaw, NanoClaw)
+Human in the loop ──────── Agent in the loop ──────── Claw in the loop
+     ↑                           ↑                         ↑
+  사용자가 운전한다.          에이전트가 보조하고,       에이전트가 24/7 운영한다.
+  AI가 응답한다.             사용자가 승인한다.         사용자는 관찰한다.
+  (ChatGPT, Copilot)        (Claude Code, Cursor)     (OpenClaw, NanoClaw)
 ```
 
 Claw는 항시 가동되는 자율 서비스다:

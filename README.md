@@ -21,11 +21,11 @@ Andrej Karpathy defined the **Claw** as a distinct new layer in the AI stack: **
 Traditional AI agents still operate within the **human-in-the-loop** paradigm — you prompt, they respond, you review. A Claw breaks free from that cycle. It lives on your hardware like a ghost in the house, autonomously orchestrating your digital life while you sleep.
 
 ```
-Human in the loop ──────── AI in the loop ──────── Claw in the loop
-     ↑                          ↑                        ↑
-  You drive.               AI assists,              AI runs 24/7.
-  AI responds.             you approve.             You observe.
-  (ChatGPT, Copilot)       (Claude Code, Cursor)    (OpenClaw, NanoClaw)
+Human in the loop ──────── Agent in the loop ──────── Claw in the loop
+     ↑                           ↑                         ↑
+  You drive.                Agent assists,            Agent runs 24/7.
+  AI responds.              you approve.              You observe.
+  (ChatGPT, Copilot)        (Claude Code, Cursor)     (OpenClaw, NanoClaw)
 ```
 
 A Claw is an always-on, autonomous service that:
