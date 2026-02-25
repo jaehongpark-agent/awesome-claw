@@ -24,8 +24,9 @@ Traditional AI agents still operate within the **human-in-the-loop** paradigm �
 Human in the loop ──────── Agent in the loop ──────── Claw in the loop
      ↑                           ↑                         ↑
   You drive.                Agent assists,            Agent runs 24/7.
-  AI responds.              you approve.              You observe.
-  (ChatGPT, Copilot)        (Claude Code, Cursor)     (OpenClaw, NanoClaw)
+  AI responds.              you approve, steer,       You observe.
+  (ChatGPT, Copilot)        interrupt.                (OpenClaw, NanoClaw)
+                             (Claude Code, Cursor)
 ```
 
 A Claw is an always-on, autonomous service that:
