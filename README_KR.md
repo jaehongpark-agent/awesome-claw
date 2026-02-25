@@ -23,7 +23,7 @@ Claw 생태계의 모든 것을 담은 큐레이션 리스트 — 플랫폼, 도
 
 ## Claw란?
 
-Andrej Karpathy가 AI의 다음 진화를 설명하기 위해 만든 용어다: **Chat → Code → Claw**.
+Andrej Karpathy가 AI 스택의 새로운 레이어로 **Claw**를 정의했다: **"처음엔 chat이 있었고, 다음엔 code가 있었고, 이제는 claw가 있다."**
 
 일반적인 AI 에이전트가 한 번 실행하는 스크립트라면, **Claw**는 항시 가동되는 서비스다:
 
