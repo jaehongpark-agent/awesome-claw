@@ -1,11 +1,17 @@
 # awesome-claw
 
-> "Just as LLM agents were a new layer on top of LLMs, Claws are yet another new layer on top of LLM agents."
-> — Andrej Karpathy
+> "Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level."
+> — [Andrej Karpathy](https://x.com/karpathy/status/2024987174077432126)
 
 A curated list of everything in the Claw ecosystem — platforms, tools, security, hardware, communities, and more.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+## Why This List?
+
+In February 2026, OpenClaw became the fastest GitHub repo to reach 100K stars in history. Within weeks, dozens of lightweight/secure alternatives, cloud hosting services, an AI agent–only social network, and a wave of critical security incidents (CVE-2026-25253, ClawHavoc supply chain attack, 30K+ exposed instances) all emerged simultaneously.
+
+Existing awesome lists are either OpenClaw-specific or simple enumerations. **awesome-claw** covers the entire Claw concept — from Karpathy's original definition through self-hosted platforms, managed services, security tools, hardware setups, orchestration frameworks, and the growing body of research and journalism around this new layer of AI infrastructure.
 
 ## What is a Claw?
 
@@ -218,7 +224,8 @@ In short, a Claw is an **AI agent promoted to a full-time service**.
 ## Articles & References
 
 ### Concept & Origin
-- [Karpathy: "Claws" concept definition](https://simonwillison.net/2026/Feb/21/claws/) — The original framing
+- [Karpathy: "Claws" (original tweet)](https://x.com/karpathy/status/2024987174077432126) — "Claws are now a new layer on top of LLM agents"
+- [Karpathy: "Claws" concept definition](https://simonwillison.net/2026/Feb/21/claws/) — The original framing (Simon Willison summary)
 - [GIGAZINE: Claw AI Agent Layer](https://gigazine.net/gsc_news/en/20260224-claw-ai-agent-layer/) — Explainer
 - [DEV: What Are Claws and Why You Shouldn't Run Them on Your Mac Mini](https://dev.to/setas/what-are-claws-and-why-you-shouldnt-run-them-on-your-mac-mini-4o1b) — Counterpoint
 
