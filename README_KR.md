@@ -1,25 +1,26 @@
-# awesome-claw
+# awesome-claws
 
 > "Claw는 LLM 에이전트 위의 새로운 레이어로, 오케스트레이션, 스케줄링, 컨텍스트, 도구 호출, 그리고 일종의 영속성을 한 단계 끌어올린다."
 > — [Andrej Karpathy](https://x.com/karpathy/status/2024987174077432126)
 
-Claw 생태계의 모든 것을 담은 큐레이션 리스트 — 플랫폼, 도구, 보안, 하드웨어, 커뮤니티 등.
-
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> Claw 생태계의 모든 것을 담은 큐레이션 리스트 — 플랫폼, 도구, 보안, 하드웨어, 커뮤니티 등.
+
 [English](README.md) | **한국어**
 
 ## 왜 이 리스트인가?
 
 2026년 2월, OpenClaw는 역대 최단 시간에 GitHub 100K 스타를 달성했다. 몇 주 만에 수십 개의 경량/보안 대안, 클라우드 호스팅, AI 에이전트 전용 소셜 네트워크, 그리고 심각한 보안 사건들(CVE-2026-25253, ClawHavoc 공급망 공격, 30K+ 노출 인스턴스)이 동시다발적으로 등장했다.
 
-기존 awesome 리스트들은 OpenClaw에 편중되거나 단순 나열에 그친다. **awesome-claw**는 Karpathy의 원래 정의부터 셀프호스팅 플랫폼, 매니지드 서비스, 보안 도구, 하드웨어 셋업, 오케스트레이션 프레임워크, 그리고 이 새로운 AI 인프라 레이어에 대한 연구와 저널리즘까지 **Claw 개념 전체**를 다룬다.
+기존 awesome 리스트들은 OpenClaw에 편중되거나 단순 나열에 그친다. **awesome-claws**는 Karpathy의 원래 정의부터 셀프호스팅 플랫폼, 매니지드 서비스, 보안 도구, 하드웨어 셋업, 오케스트레이션 프레임워크, 그리고 이 새로운 AI 인프라 레이어에 대한 연구와 저널리즘까지 **Claw 개념 전체**를 다룬다.
 
 | 리포지토리 | 초점 | 한계 |
 |---|---|---|
 | awesome-openclaw | OpenClaw 전용 리소스 | OpenClaw만 다룸 |
 | awesome-openclaw-skills | OpenClaw 스킬 모음 | 스킬만 다룸 |
 | awesome-claws | 구현체 27개 나열 | 단순 나열, 컨텍스트/보안/생태계 부족 |
-| **awesome-claw (본 리스트)** | **Claw 개념 전체** | 개념+생태계+보안+하드웨어+SNS+클라우드+기사 |
+| **awesome-claws (본 리스트)** | **Claw 개념 전체** | 개념+생태계+보안+하드웨어+SNS+클라우드+기사 |
 
 ## Claw란?
 
@@ -47,35 +48,26 @@ Claw는 항시 가동되는 자율 서비스다:
 
 ## 목차
 
-- [셀프호스팅 플랫폼](#셀프호스팅-플랫폼)
-  - [Tier 1 (10K+ Stars)](#tier-1-10k-stars)
-  - [Tier 2 (1K–10K Stars)](#tier-2-1k10k-stars)
-  - [신생 (<1K Stars)](#신생-1k-stars)
-- [클라우드 호스팅 / 매니지드](#클라우드-호스팅--매니지드)
-  - [OpenClaw 호스팅](#openclaw-호스팅)
-  - [매니지드 AI 에이전트 서비스](#매니지드-ai-에이전트-서비스)
-- [네이티브 앱](#네이티브-앱)
-- [AI 에이전트 SNS / 커뮤니티](#ai-에이전트-sns--커뮤니티)
-- [스킬 마켓플레이스](#스킬-마켓플레이스)
-- [오케스트레이션 & 멀티 에이전트](#오케스트레이션--멀티-에이전트)
-- [보안](#보안)
-  - [알려진 위험](#알려진-위험)
-  - [보안 도구](#보안-도구)
-  - [보안 가이드 & 리소스](#보안-가이드--리소스)
-- [하드웨어](#하드웨어)
-- [핵심 개념](#핵심-개념)
-- [기사 & 참고자료](#기사--참고자료)
-  - [개념 & 기원](#개념--기원)
-  - [생태계 & 지형도](#생태계--지형도)
-  - [비즈니스 & 산업](#비즈니스--산업)
-  - [Moltbook](#moltbook)
-  - [연구 & 학술](#연구--학술)
-  - [실전 가이드](#실전-가이드)
-  - [플랫폼 충돌](#플랫폼-충돌)
-- [기여하기](#기여하기)
+- [셀프호스팅 플랫폼 🖥️](#셀프호스팅-플랫폼-%EF%B8%8F)
+- [클라우드 호스팅 / 매니지드 ☁️](#클라우드-호스팅--매니지드-%EF%B8%8F)
+- [네이티브 앱 📱](#네이티브-앱-)
+- [AI 에이전트 SNS / 커뮤니티 🌐](#ai-에이전트-sns--커뮤니티-)
+- [스킬 마켓플레이스 🛒](#스킬-마켓플레이스-)
+- [오케스트레이션 & 멀티 에이전트 🎛️](#오케스트레이션--멀티-에이전트-%EF%B8%8F)
+- [보안 🔒](#보안-)
+- [하드웨어 🔧](#하드웨어-)
+- [핵심 개념 💡](#핵심-개념-)
+- [기사 & 참고자료 📰](#기사--참고자료-)
+- [기여하기](#기여하기-)
+- [Growing](#growing)
+- [Star History](#star-history)
 - [라이선스](#라이선스)
 
-## 셀프호스팅 플랫폼
+<br>
+
+## 셀프호스팅 플랫폼 🖥️
+
+> 자신의 하드웨어에서 나만의 Claw를 운영한다. 160K 스타 원조부터 678KB Zig 바이너리까지.
 
 ### Tier 1 (10K+ Stars)
 
@@ -117,7 +109,11 @@ Claw는 항시 가동되는 자율 서비스다:
 - **ClawPal** — TypeScript, 이미지 생성·Edge TTS로 에이전트에 얼굴/음성/셀카 부여
 - **Clawe** — TypeScript, "OpenClaw용 Trello," 4-에이전트 크론 스케줄
 
-## 클라우드 호스팅 / 매니지드
+<br>
+
+## 클라우드 호스팅 / 매니지드 ☁️
+
+> 직접 호스팅하기 싫다면? 이 서비스들이 대신 Claw를 운영해준다.
 
 ### OpenClaw 호스팅
 
@@ -144,7 +140,11 @@ Claw는 항시 가동되는 자율 서비스다:
 | [HappyCapy](https://happycapy.ai) | 브라우저 기반 WYSIWYG |
 | [Knolli](https://www.knolli.ai/) | 노코드 AI 코파일럿 빌더, 멀티 에이전트, 화이트라벨링, 분석 |
 
-## 네이티브 앱
+<br>
+
+## 네이티브 앱 📱
+
+> 데스크톱과 모바일에서 Claw 기능을 사용할 수 있는 앱들.
 
 | 이름 | 플랫폼 | 특징 |
 |------|--------|------|
@@ -153,21 +153,33 @@ Claw는 항시 가동되는 자율 서비스다:
 | Majordomo | iOS | 주거용 프록시 차별화 |
 | Viola | 크로스플랫폼 | 음성 우선, 온디바이스 처리 |
 
-## AI 에이전트 SNS / 커뮤니티
+<br>
+
+## AI 에이전트 SNS / 커뮤니티 🌐
+
+> AI 에이전트(와 그 인간들)가 모이는 소셜 네트워크와 커뮤니티.
 
 | 이름 | 설명 |
 |------|------|
 | [Moltbook](https://moltbook.com) | AI 에이전트 전용 소셜 네트워크 (Reddit 형식), 1.6M+ 에이전트, 인간은 관찰만 |
 | [봇마당 (BotMadang)](https://botmadang.org) | 한국어 AI 에이전트 커뮤니티 (hunkim), MCP 서버 연동, OpenClaw 등록 가능 |
 
-## 스킬 마켓플레이스
+<br>
+
+## 스킬 마켓플레이스 🛒
+
+> Claw의 능력을 확장하는 스킬을 찾고, 공유하고, 설치한다.
 
 | 이름 | 설명 |
 |------|------|
 | [ClawHub](https://clawhub.ai) | OpenClaw 공식 스킬 레지스트리, 3,286+ 스킬, 벡터 검색 |
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 커뮤니티 스킬 모음 |
 
-## 오케스트레이션 & 멀티 에이전트
+<br>
+
+## 오케스트레이션 & 멀티 에이전트 🎛️
+
+> 함께 협업하는 AI 에이전트 팀을 관리한다.
 
 | 이름 | 설명 |
 |------|------|
@@ -177,7 +189,11 @@ Claw는 항시 가동되는 자율 서비스다:
 | [GasTown](https://github.com/steveyegge/gastown) | Steve Yegge의 멀티 에이전트 워크스페이스 — "Mayor"가 git 기반 "Polecat" 오케스트레이션 (10K 스타) |
 | [Claw-Kanban](https://github.com/GreenSheep01201/Claw-Kanban) | 6컬럼 칸반으로 Claude Code, Codex CLI, Gemini CLI에 작업 라우팅, 실시간 터미널 모니터링 |
 
-## 보안
+<br>
+
+## 보안 🔒
+
+> Claw 생태계는 강력하다 — 그리고 활발하게 공격받고 있다. 정보를 유지하라.
 
 ### 알려진 위험
 
@@ -223,7 +239,11 @@ Claw는 항시 가동되는 자율 서비스다:
 - [CyberArk: 기업 신원 보안 재편](https://www.cyberark.com/resources/blog/how-autonomous-ai-agents-like-openclaw-are-reshaping-enterprise-identity-security) — AI 에이전트를 새로운 머신 아이덴티티로
 - [TechCrunch: 에이전트가 받은편지함에서 폭주](https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/) — 실제 사고 보고
 
-## 하드웨어
+<br>
+
+## 하드웨어 🔧
+
+> Claw 운영을 위한 추천 하드웨어 — Mac Mini부터 $5 마이크로컨트롤러까지.
 
 | 하드웨어 | 용도 | 참고 |
 |----------|------|------|
@@ -232,14 +252,22 @@ Claw는 항시 가동되는 자율 서비스다:
 | ESP32 | IoT 에이전트 (zclaw, MimiClaw) | 888KB~수MB, GPIO 제어 |
 | 구형 Android폰 | droidclaw로 재활용 | — |
 
-## 핵심 개념
+<br>
+
+## 핵심 개념 💡
+
+> Claw를 단순한 챗봇 이상으로 만드는 핵심 구성 요소들.
 
 - **Skills 기반 설정** — 설정 파일 대신 AI가 코드를 직접 수정 (NanoClaw 방식)
 - **컨테이너 격리** — Docker / Apple Container로 에이전트 샌드박싱
 - **MCP (Model Context Protocol)** — 13,000+ MCP 서버 생태계와 통합
 - **Gateway 아키텍처** — 단일 프로세스가 세션/라우팅/채널 관리
 
-## 기사 & 참고자료
+<br>
+
+## 기사 & 참고자료 📰
+
+> Claw 생태계에 대한 최고의 글들 — Karpathy의 원본 트윗부터 Nature까지.
 
 ### 개념 & 기원
 - [Karpathy: "Claws" (원본 트윗)](https://x.com/karpathy/status/2024987174077432126) — "Claw는 LLM 에이전트 위의 새로운 레이어"
@@ -287,9 +315,19 @@ Claw는 항시 가동되는 자율 서비스다:
 ### 참고
 - [Wikipedia: OpenClaw](https://en.wikipedia.org/wiki/OpenClaw) — 백과사전 항목
 
-## 기여하기
+<br>
+
+## 기여하기 [🔝](#awesome-claws)
 
 기여를 환영합니다! PR을 제출하기 전에 [기여 가이드라인](CONTRIBUTING.md)을 읽어주세요.
+
+## Growing
+
+[![Stargazers over time](https://starchart.cc/jaehongpark-agent/awesome-claws.svg?variant=adaptive)](https://starchart.cc/jaehongpark-agent/awesome-claws)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jaehongpark-agent/awesome-claws&type=Date)](https://star-history.com/#jaehongpark-agent/awesome-claws&Date)
 
 ## 라이선스
 

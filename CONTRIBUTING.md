@@ -1,4 +1,4 @@
-# Contributing to awesome-claw
+# Contributing to awesome-claws
 
 Thanks for your interest in contributing! This list aims to be the most comprehensive, well-organized resource for the Claw ecosystem.
 

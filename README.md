@@ -1,18 +1,19 @@
-# awesome-claw
+# awesome-claws
 
 > "Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level."
 > — [Andrej Karpathy](https://x.com/karpathy/status/2024987174077432126)
 
-A curated list of everything in the Claw ecosystem — platforms, tools, security, hardware, communities, and more.
-
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated list of everything in the Claw ecosystem — platforms, tools, security, hardware, communities, and more.
+
 **English** | [한국어](README_KR.md)
 
 ## Why This List?
 
 In February 2026, OpenClaw became the fastest GitHub repo to reach 100K stars in history. Within weeks, dozens of lightweight/secure alternatives, cloud hosting services, an AI agent–only social network, and a wave of critical security incidents (CVE-2026-25253, ClawHavoc supply chain attack, 30K+ exposed instances) all emerged simultaneously.
 
-Existing awesome lists are either OpenClaw-specific or simple enumerations. **awesome-claw** covers the entire Claw concept — from Karpathy's original definition through self-hosted platforms, managed services, security tools, hardware setups, orchestration frameworks, and the growing body of research and journalism around this new layer of AI infrastructure.
+Existing awesome lists are either OpenClaw-specific or simple enumerations. **awesome-claws** covers the entire Claw concept — from Karpathy's original definition through self-hosted platforms, managed services, security tools, hardware setups, orchestration frameworks, and the growing body of research and journalism around this new layer of AI infrastructure.
 
 ## What is a Claw?
 
@@ -40,35 +41,26 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 ## Contents
 
-- [Self-Hosted Platforms](#self-hosted-platforms)
-  - [Tier 1 (10K+ Stars)](#tier-1-10k-stars)
-  - [Tier 2 (1K–10K Stars)](#tier-2-1k10k-stars)
-  - [Emerging (<1K Stars)](#emerging-1k-stars)
-- [Cloud-Hosted / Managed](#cloud-hosted--managed)
-  - [OpenClaw Hosting](#openclaw-hosting)
-  - [Managed AI Agent Services](#managed-ai-agent-services)
-- [Native Apps](#native-apps)
-- [AI Agent SNS / Community](#ai-agent-sns--community)
-- [Skill Marketplace](#skill-marketplace)
-- [Orchestration & Multi-Agent](#orchestration--multi-agent)
-- [Security](#security)
-  - [Known Risks](#known-risks)
-  - [Security Tools](#security-tools)
-  - [Security Guides & Resources](#security-guides--resources)
-- [Hardware](#hardware)
-- [Key Concepts](#key-concepts)
-- [Articles & References](#articles--references)
-  - [Concept & Origin](#concept--origin)
-  - [Ecosystem & Landscape](#ecosystem--landscape)
-  - [Business & Industry](#business--industry)
-  - [Moltbook](#moltbook)
-  - [Research & Academic](#research--academic)
-  - [Hands-On Guides](#hands-on-guides)
-  - [Platform Conflicts](#platform-conflicts)
-- [Contributing](#contributing)
+- [Self-Hosted Platforms 🖥️](#self-hosted-platforms-%EF%B8%8F)
+- [Cloud-Hosted / Managed ☁️](#cloud-hosted--managed-%EF%B8%8F)
+- [Native Apps 📱](#native-apps-)
+- [AI Agent SNS / Community 🌐](#ai-agent-sns--community-)
+- [Skill Marketplace 🛒](#skill-marketplace-)
+- [Orchestration & Multi-Agent 🎛️](#orchestration--multi-agent-%EF%B8%8F)
+- [Security 🔒](#security-)
+- [Hardware 🔧](#hardware-)
+- [Key Concepts 💡](#key-concepts-)
+- [Articles & References 📰](#articles--references-)
+- [Contributing](#contributing-)
+- [Growing](#growing-)
+- [Star History](#star-history-)
 - [License](#license)
 
-## Self-Hosted Platforms
+<br>
+
+## Self-Hosted Platforms 🖥️
+
+> Run your own Claw on your own hardware. From the 160K-star original to a 678 KB Zig binary.
 
 ### Tier 1 (10K+ Stars)
 
@@ -110,7 +102,11 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 - **ClawPal** — TypeScript, gives OpenClaw agents a face/voice/selfie via image gen and Edge TTS
 - **Clawe** — TypeScript, "Trello for OpenClaw agents," 4-agent squad on cron schedules
 
-## Cloud-Hosted / Managed
+<br>
+
+## Cloud-Hosted / Managed ☁️
+
+> Don't want to self-host? These services run your Claw for you.
 
 ### OpenClaw Hosting
 
@@ -137,7 +133,11 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 | [HappyCapy](https://happycapy.ai) | Browser-based WYSIWYG |
 | [Knolli](https://www.knolli.ai/) | No-code AI copilot builder, multi-agent, white-labeling, analytics |
 
-## Native Apps
+<br>
+
+## Native Apps 📱
+
+> Desktop and mobile apps that bring Claw capabilities to your devices.
 
 | Name | Platform | Feature |
 |------|----------|---------|
@@ -146,21 +146,33 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 | Majordomo | iOS | Residential proxy differentiation |
 | Viola | Cross-platform | Voice-first, on-device processing |
 
-## AI Agent SNS / Community
+<br>
+
+## AI Agent SNS / Community 🌐
+
+> Social networks and communities where AI agents (and their humans) gather.
 
 | Name | Description |
 |------|-------------|
 | [Moltbook](https://moltbook.com) | AI agent–only social network (Reddit-style), 1.6M+ agents, humans observe only |
 | [BotMadang](https://botmadang.org) | Korean AI agent community (by hunkim), MCP server integration, OpenClaw registration |
 
-## Skill Marketplace
+<br>
+
+## Skill Marketplace 🛒
+
+> Find, share, and install skills that extend your Claw's capabilities.
 
 | Name | Description |
 |------|-------------|
 | [ClawHub](https://clawhub.ai) | Official OpenClaw skill registry, 3,286+ skills, vector search |
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | Community-curated skill collection |
 
-## Orchestration & Multi-Agent
+<br>
+
+## Orchestration & Multi-Agent 🎛️
+
+> Manage fleets of AI agents working together.
 
 | Name | Description |
 |------|-------------|
@@ -170,7 +182,11 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 | [GasTown](https://github.com/steveyegge/gastown) | Multi-agent workspace by Steve Yegge — "Mayor" orchestrates "Polecats" across git-backed rigs (10K stars) |
 | [Claw-Kanban](https://github.com/GreenSheep01201/Claw-Kanban) | 6-column Kanban routing tasks to Claude Code, Codex CLI, Gemini CLI with real-time terminal monitoring |
 
-## Security
+<br>
+
+## Security 🔒
+
+> The Claw ecosystem is powerful — and actively under attack. Stay informed.
 
 ### Known Risks
 
@@ -216,7 +232,11 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 - [CyberArk: Reshaping Enterprise Identity](https://www.cyberark.com/resources/blog/how-autonomous-ai-agents-like-openclaw-are-reshaping-enterprise-identity-security) — AI agents as new machine identity class
 - [TechCrunch: Agent Ran Amok on Inbox](https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/) — Real-world incident report
 
-## Hardware
+<br>
+
+## Hardware 🔧
+
+> Recommended hardware for running your own Claw — from a Mac Mini to a $5 microcontroller.
 
 | Hardware | Use Case | Reference |
 |----------|----------|-----------|
@@ -225,14 +245,22 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 | ESP32 | IoT agents (zclaw, MimiClaw) | 888 KB – several MB, GPIO control |
 | Old Android phone | Repurpose with droidclaw | — |
 
-## Key Concepts
+<br>
+
+## Key Concepts 💡
+
+> The building blocks that make a Claw more than just another chatbot.
 
 - **Skills-based configuration** — Instead of config files, the AI modifies code directly (NanoClaw approach)
 - **Container isolation** — Docker / Apple Containers for agent sandboxing
 - **MCP (Model Context Protocol)** — Integration with the 13,000+ MCP server ecosystem
 - **Gateway architecture** — A single process manages sessions, routing, and channels
 
-## Articles & References
+<br>
+
+## Articles & References 📰
+
+> The best writing about the Claw ecosystem — from Karpathy's original tweet to Nature.
 
 ### Concept & Origin
 - [Karpathy: "Claws" (original tweet)](https://x.com/karpathy/status/2024987174077432126) — "Claws are now a new layer on top of LLM agents"
@@ -280,9 +308,19 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 ### Reference
 - [Wikipedia: OpenClaw](https://en.wikipedia.org/wiki/OpenClaw) — Encyclopedia entry
 
-## Contributing
+<br>
+
+## Contributing [🔝](#awesome-claws)
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting a PR.
+
+## Growing
+
+[![Stargazers over time](https://starchart.cc/jaehongpark-agent/awesome-claws.svg?variant=adaptive)](https://starchart.cc/jaehongpark-agent/awesome-claws)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jaehongpark-agent/awesome-claws&type=Date)](https://star-history.com/#jaehongpark-agent/awesome-claws&Date)
 
 ## License
 

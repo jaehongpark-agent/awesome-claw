@@ -1,10 +1,10 @@
-# Update awesome-claw
+# Update awesome-claws
 
-Skill for keeping the awesome-claw curated list up to date.
+Skill for keeping the awesome-claws curated list up to date.
 
 ## Instructions
 
-When the user invokes `/update-awesome-claw`, perform the following steps:
+When the user invokes `/update-awesome-claws`, perform the following steps:
 
 ### 1. Discover New Entries
 - Use web search to find new Claw-related projects, articles, security advisories, and tools released since the last update.
