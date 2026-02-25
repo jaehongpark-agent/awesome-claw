@@ -16,7 +16,7 @@ Existing awesome lists are either OpenClaw-specific or simple enumerations. **aw
 
 ## What is a Claw?
 
-Andrej Karpathy defined the **Claw** as a distinct new layer in the AI stack: **"First there was chat, then there was code, now there is claw."**
+Andrej Karpathy defined the **Claw** as a distinct new layer in the AI stack: **Chat → Code → Claw**.
 
 While a typical AI agent is a script you run once, a **Claw** is an always-on service that:
 
