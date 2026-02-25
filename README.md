@@ -18,15 +18,25 @@ Existing awesome lists are either OpenClaw-specific or simple enumerations. **aw
 
 Andrej Karpathy defined the **Claw** as a distinct new layer in the AI stack: **Chat → Code → Claw**.
 
-While a typical AI agent is a script you run once, a **Claw** is an always-on service that:
+Traditional AI agents still operate within the **human-in-the-loop** paradigm — you prompt, they respond, you review. A Claw breaks free from that cycle. It lives on your hardware like a ghost in the house, autonomously orchestrating your digital life while you sleep.
 
-- Runs 24/7 with persistent memory and state
+```
+Human in the loop ──────── AI in the loop ──────── Claw in the loop
+     ↑                          ↑                        ↑
+  You drive.               AI assists,              AI runs 24/7.
+  AI responds.             you approve.             You observe.
+  (ChatGPT, Copilot)       (Claude Code, Cursor)    (OpenClaw, NanoClaw)
+```
+
+A Claw is an always-on, autonomous service that:
+
+- Persists memory and state across days, weeks, months
 - Connects to multiple messaging channels (Slack, Discord, WhatsApp, Telegram, etc.)
-- Calls tools, APIs, and MCP servers autonomously
-- Schedules tasks, monitors events, and reacts in real time
-- Manages its own context and orchestrates sub-agents
+- Calls tools, APIs, and MCP servers on its own initiative
+- Schedules tasks, monitors events, and acts without being asked
+- Orchestrates sub-agents and manages its own context
 
-In short, a Claw is an **AI agent promoted to a full-time service**.
+In short, a Claw is not a tool you use — it's a **digital entity that coexists with you**.
 
 ## Contents
 
