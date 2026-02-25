@@ -3,8 +3,6 @@
 > "Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level."
 > — [Andrej Karpathy](https://x.com/karpathy/status/2024987174077432126)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
 > A curated list of everything in the Claw ecosystem — platforms, tools, security, hardware, communities, and more.
 
 **English** | [한국어](README_KR.md)
@@ -52,8 +50,7 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 - [Key Concepts 💡](#key-concepts-)
 - [Articles & References 📰](#articles--references-)
 - [Contributing](#contributing-)
-- [Growing](#growing-)
-- [Star History](#star-history-)
+- [Star History](#star-history)
 - [License](#license)
 
 <br>
@@ -64,30 +61,26 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 ### Tier 1 (10K+ Stars)
 
-| Name | Language | Stars | Key Feature |
-|------|----------|-------|-------------|
-| [OpenClaw](https://github.com/openclaw/openclaw) | TypeScript | 160K+ | The original — 50+ messaging integrations, MCP support |
-| [NanoBot](https://github.com/HKUDS/nanobot) | Python | 22K | 4,000 lines, `pip install`, research-friendly |
-| [AstrBot](https://github.com/Soulter/AstrBot) | Python | 17K | Chinese ecosystem, 800+ plugins, QQ/WeChat |
-| [PicoClaw](https://github.com/sipeed/picoclaw) | Go | 17K | <10 MB RAM, $10 hardware, edge-first |
-| [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | Rust | 16K | WASM sandbox, <5 MB, 1,017 tests |
-| [Pi](https://github.com/modelcontextprotocol/pi) | TypeScript | 14K | OpenClaw's internal engine — 4 tools, minimal system prompt |
-| [NanoClaw](https://github.com/qwibitai/nanoclaw) | TypeScript | 10K | Container isolation, Agent SDK, Skills = config |
-| [memU](https://github.com/NevaMind-AI/memU) | — | 7K | Long-term memory, knowledge graphs, personalization |
+- [**OpenClaw**](https://github.com/openclaw/openclaw) — TypeScript, 160K+ stars. The original — 50+ messaging integrations, MCP support
+- [**NanoBot**](https://github.com/HKUDS/nanobot) — Python, 22K stars. 4,000 lines, `pip install`, research-friendly
+- [**AstrBot**](https://github.com/Soulter/AstrBot) — Python, 17K stars. Chinese ecosystem, 800+ plugins, QQ/WeChat
+- [**PicoClaw**](https://github.com/sipeed/picoclaw) — Go, 17K stars. <10 MB RAM, $10 hardware, edge-first
+- [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) — Rust, 16K stars. WASM sandbox, <5 MB, 1,017 tests
+- [**Pi**](https://github.com/modelcontextprotocol/pi) — TypeScript, 14K stars. OpenClaw's internal engine — 4 tools, minimal system prompt
+- [**NanoClaw**](https://github.com/qwibitai/nanoclaw) — TypeScript, 10K stars. Container isolation, Agent SDK, Skills = config
+- [**memU**](https://github.com/NevaMind-AI/memU) — 7K stars. Long-term memory, knowledge graphs, personalization
 
 ### Tier 2 (1K–10K Stars)
 
-| Name | Language | Stars | Key Feature |
-|------|----------|-------|-------------|
-| [Moltworker](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/) | TypeScript | 9K | Cloudflare Workers, serverless, 300+ edge locations |
-| [ClawWork](https://github.com/HKUDS/ClawWork) | Python | 5K | Turns OpenClaw/NanoBot into AI coworker earning income across 44 economic sectors |
-| [IronClaw](https://github.com/nickclaw/ironclaw) | Rust | 2.7K | NEAR AI, WASM sandbox, self-extending tools |
-| [TinyClaw](https://github.com/warengonzaga/tinyclaw) | Shell/TS | 2.3K | Multi-agent teams, plugin architecture |
-| [NullClaw](https://github.com/nullclaw/nullclaw) | Zig | 1.4K | 678 KB binary, ~1 MB RAM, <2 ms boot |
-| [Antfarm](https://github.com/antfarm-ai/antfarm) | YAML/SQLite | 1.4K | Multi-agent teams (planner / dev / verifier) |
-| [Moltis](https://github.com/moltis-ai/moltis) | Rust | 1.3K | MCP multiplexing gateway |
-| [zclaw](https://github.com/nickclaw/zclaw) | C | 1.2K | ESP32, 888 KB firmware, GPIO, Telegram |
-| [droidclaw](https://github.com/nickclaw/droidclaw) | TypeScript | 931 | Turn old Android phones into agents |
+- [**Moltworker**](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/) — TypeScript, 9K stars. Cloudflare Workers, serverless, 300+ edge locations
+- [**ClawWork**](https://github.com/HKUDS/ClawWork) — Python, 5K stars. Turns OpenClaw/NanoBot into AI coworker earning income across 44 economic sectors
+- [**IronClaw**](https://github.com/nickclaw/ironclaw) — Rust, 2.7K stars. NEAR AI, WASM sandbox, self-extending tools
+- [**TinyClaw**](https://github.com/warengonzaga/tinyclaw) — Shell/TS, 2.3K stars. Multi-agent teams, plugin architecture
+- [**NullClaw**](https://github.com/nullclaw/nullclaw) — Zig, 1.4K stars. 678 KB binary, ~1 MB RAM, <2 ms boot
+- [**Antfarm**](https://github.com/antfarm-ai/antfarm) — YAML/SQLite, 1.4K stars. Multi-agent teams (planner / dev / verifier)
+- [**Moltis**](https://github.com/moltis-ai/moltis) — Rust, 1.3K stars. MCP multiplexing gateway
+- [**zclaw**](https://github.com/nickclaw/zclaw) — C, 1.2K stars. ESP32, 888 KB firmware, GPIO, Telegram
+- [**droidclaw**](https://github.com/nickclaw/droidclaw) — TypeScript, 931 stars. Turn old Android phones into agents
 
 ### Emerging (<1K Stars)
 
@@ -110,28 +103,24 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 ### OpenClaw Hosting
 
-| Name | Pricing | Feature |
-|------|---------|---------|
-| [EasyClaw](https://easyclaw.com) | $49/mo | One-click deploy, managed security, native app (Mac/Win) |
-| [OpenClawd.ai](https://openclawd.ai) | — | Official hosted version, auth/encryption/isolation built-in |
-| [ClawHost](https://github.com/bfzli/clawhost) | — | Open-source, automatic VPS provisioning |
-| [xCloud](https://xcloud.host/openclaw-hosting/) | — | Fully managed, deploy in 5 minutes |
-| [OVHcloud](https://www.ovhcloud.com/en/vps/vps-openclaw/) | — | VPS-based hosting |
-| [Hostinger](https://www.hostinger.com/vps/docker/openclaw) | — | Docker-based VPS |
-| [Kimi Claw](https://www.marktechpost.com/2026/02/15/moonshot-ai-launches-kimi-claw-native-openclaw-on-kimi-com-with-5000-community-skills-and-40gb-cloud-storage-now/) | — | Moonshot AI cloud-native OpenClaw, 5,000+ skills, 40 GB storage, Kimi K2.5 (1T MoE) |
+- [**EasyClaw**](https://easyclaw.com) — $49/mo. One-click deploy, managed security, native app (Mac/Win)
+- [**OpenClawd.ai**](https://openclawd.ai) — Official hosted version, auth/encryption/isolation built-in
+- [**ClawHost**](https://github.com/bfzli/clawhost) — Open-source, automatic VPS provisioning
+- [**xCloud**](https://xcloud.host/openclaw-hosting/) — Fully managed, deploy in 5 minutes
+- [**OVHcloud**](https://www.ovhcloud.com/en/vps/vps-openclaw/) — VPS-based hosting
+- [**Hostinger**](https://www.hostinger.com/vps/docker/openclaw) — Docker-based VPS
+- [**Kimi Claw**](https://www.marktechpost.com/2026/02/15/moonshot-ai-launches-kimi-claw-native-openclaw-on-kimi-com-with-5000-community-skills-and-40gb-cloud-storage-now/) — Moonshot AI cloud-native OpenClaw, 5,000+ skills, 40 GB storage, Kimi K2.5 (1T MoE)
 
 ### Managed AI Agent Services
 
-| Name | Feature |
-|------|---------|
-| [Lindy](https://lindy.ai) | iMessage-based, 400K users, $50/mo, SOC2/HIPAA |
-| [Manus](https://manus.im) | Meta acquisition ($2–3B), autonomous execution, code deployment |
-| [Poke](https://poke.ai) | Messaging-native, privacy-first |
-| [Pulsed](https://pulsed.ai) | 12+ tool integrations (Gmail, Slack, Notion, etc.) |
-| [Ako](https://ako.ai) | Slack-native, AI as a team member |
-| [Nebula](https://nebula.ai) | Slack-like interface, 24/7 workflows |
-| [HappyCapy](https://happycapy.ai) | Browser-based WYSIWYG |
-| [Knolli](https://www.knolli.ai/) | No-code AI copilot builder, multi-agent, white-labeling, analytics |
+- [**Lindy**](https://lindy.ai) — iMessage-based, 400K users, $50/mo, SOC2/HIPAA
+- [**Manus**](https://manus.im) — Meta acquisition ($2–3B), autonomous execution, code deployment
+- [**Poke**](https://poke.ai) — Messaging-native, privacy-first
+- [**Pulsed**](https://pulsed.ai) — 12+ tool integrations (Gmail, Slack, Notion, etc.)
+- [**Ako**](https://ako.ai) — Slack-native, AI as a team member
+- [**Nebula**](https://nebula.ai) — Slack-like interface, 24/7 workflows
+- [**HappyCapy**](https://happycapy.ai) — Browser-based WYSIWYG
+- [**Knolli**](https://www.knolli.ai/) — No-code AI copilot builder, multi-agent, white-labeling, analytics
 
 <br>
 
@@ -139,12 +128,10 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 > Desktop and mobile apps that bring Claw capabilities to your devices.
 
-| Name | Platform | Feature |
-|------|----------|---------|
-| Lazzy | macOS | Floating above cursor, 800+ MCP, local-only |
-| Groovy | WhatsApp | WhatsApp orchestration, marketing analytics |
-| Majordomo | iOS | Residential proxy differentiation |
-| Viola | Cross-platform | Voice-first, on-device processing |
+- **Lazzy** — macOS. Floating above cursor, 800+ MCP, local-only
+- **Groovy** — WhatsApp. WhatsApp orchestration, marketing analytics
+- **Majordomo** — iOS. Residential proxy differentiation
+- **Viola** — Cross-platform. Voice-first, on-device processing
 
 <br>
 
@@ -152,10 +139,8 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 > Social networks and communities where AI agents (and their humans) gather.
 
-| Name | Description |
-|------|-------------|
-| [Moltbook](https://moltbook.com) | AI agent–only social network (Reddit-style), 1.6M+ agents, humans observe only |
-| [BotMadang](https://botmadang.org) | Korean AI agent community (by hunkim), MCP server integration, OpenClaw registration |
+- [**Moltbook**](https://moltbook.com) — AI agent–only social network (Reddit-style), 1.6M+ agents, humans observe only
+- [**BotMadang**](https://botmadang.org) — Korean AI agent community (by hunkim), MCP server integration, OpenClaw registration
 
 <br>
 
@@ -163,10 +148,8 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 > Find, share, and install skills that extend your Claw's capabilities.
 
-| Name | Description |
-|------|-------------|
-| [ClawHub](https://clawhub.ai) | Official OpenClaw skill registry, 3,286+ skills, vector search |
-| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | Community-curated skill collection |
+- [**ClawHub**](https://clawhub.ai) — Official OpenClaw skill registry, 3,286+ skills, vector search
+- [**awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) — Community-curated skill collection
 
 <br>
 
@@ -174,13 +157,11 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 > Manage fleets of AI agents working together.
 
-| Name | Description |
-|------|-------------|
-| [claw-empire](https://github.com/GreenSheep01201/claw-empire) | Pixel-art office UI for managing multiple agents (Claude Code, Codex CLI, etc.) |
-| [openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) | AI agent orchestration dashboard |
-| [AionUi](https://github.com/iOfficeAI/AionUi) | Local cowork app — Gemini CLI, Claude Code, Goose integration |
-| [GasTown](https://github.com/steveyegge/gastown) | Multi-agent workspace by Steve Yegge — "Mayor" orchestrates "Polecats" across git-backed rigs (10K stars) |
-| [Claw-Kanban](https://github.com/GreenSheep01201/Claw-Kanban) | 6-column Kanban routing tasks to Claude Code, Codex CLI, Gemini CLI with real-time terminal monitoring |
+- [**claw-empire**](https://github.com/GreenSheep01201/claw-empire) — Pixel-art office UI for managing multiple agents (Claude Code, Codex CLI, etc.)
+- [**openclaw-mission-control**](https://github.com/abhi1693/openclaw-mission-control) — AI agent orchestration dashboard
+- [**AionUi**](https://github.com/iOfficeAI/AionUi) — Local cowork app — Gemini CLI, Claude Code, Goose integration
+- [**GasTown**](https://github.com/steveyegge/gastown) — Multi-agent workspace by Steve Yegge — "Mayor" orchestrates "Polecats" across git-backed rigs (10K stars)
+- [**Claw-Kanban**](https://github.com/GreenSheep01201/Claw-Kanban) — 6-column Kanban routing tasks to Claude Code, Codex CLI, Gemini CLI with real-time terminal monitoring
 
 <br>
 
@@ -204,11 +185,9 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 ### Security Tools
 
-| Name | Description |
-|------|-------------|
-| [SecureClaw](https://github.com/adversa-ai/secureclaw) | OWASP-aligned plugin/skill — 56 audit checks, 5 hardening modules, MITRE ATLAS coverage |
-| [ClawSec](https://www.sentinelone.com/blog/clawsec-hardening-openclaw-agents-from-the-inside-out/) | SentinelOne "skill-of-skills" — supply chain integrity, posture hardening, zero-trust comms |
-| [ClawKeeper](https://github.com/rad-security/clawkeeper) | RAD Security scanner — 42 checks across 5 phases for misconfig, creds, network hardening |
+- [**SecureClaw**](https://github.com/adversa-ai/secureclaw) — OWASP-aligned plugin/skill — 56 audit checks, 5 hardening modules, MITRE ATLAS coverage
+- [**ClawSec**](https://www.sentinelone.com/blog/clawsec-hardening-openclaw-agents-from-the-inside-out/) — SentinelOne "skill-of-skills" — supply chain integrity, posture hardening, zero-trust comms
+- [**ClawKeeper**](https://github.com/rad-security/clawkeeper) — RAD Security scanner — 42 checks across 5 phases for misconfig, creds, network hardening
 
 ### Security Guides & Resources
 
@@ -238,12 +217,10 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 > Recommended hardware for running your own Claw — from a Mac Mini to a $5 microcontroller.
 
-| Hardware | Use Case | Reference |
-|----------|----------|-----------|
-| Mac Mini M4 Pro 64 GB | Recommended setup — unified memory for local LLMs | [Setup guide](https://www.marc0.dev/en/blog/openclaw-mac-mini-the-complete-guide-to-running-your-own-ai-agent-in-2026-1770057455419) |
-| Raspberry Pi | Low-cost alternative | [itsfoss guide](https://itsfoss.com/openclaw-alternatives/), [Goose + RPi](https://block.github.io/goose/blog/2026/02/06/rpi-openclaw-alternative/) |
-| ESP32 | IoT agents (zclaw, MimiClaw) | 888 KB – several MB, GPIO control |
-| Old Android phone | Repurpose with droidclaw | — |
+- **Mac Mini M4 Pro 64 GB** — Recommended setup, unified memory for local LLMs. [Setup guide](https://www.marc0.dev/en/blog/openclaw-mac-mini-the-complete-guide-to-running-your-own-ai-agent-in-2026-1770057455419)
+- **Raspberry Pi** — Low-cost alternative. [itsfoss guide](https://itsfoss.com/openclaw-alternatives/), [Goose + RPi](https://block.github.io/goose/blog/2026/02/06/rpi-openclaw-alternative/)
+- **ESP32** — IoT agents (zclaw, MimiClaw), 888 KB – several MB, GPIO control
+- **Old Android phone** — Repurpose with droidclaw
 
 <br>
 
@@ -313,10 +290,6 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 ## Contributing [🔝](#awesome-claws)
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting a PR.
-
-## Growing
-
-[![Stargazers over time](https://starchart.cc/jaehongpark-agent/awesome-claws.svg?variant=adaptive)](https://starchart.cc/jaehongpark-agent/awesome-claws)
 
 ## Star History
 

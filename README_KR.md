@@ -3,8 +3,6 @@
 > "Claw는 LLM 에이전트 위의 새로운 레이어로, 오케스트레이션, 스케줄링, 컨텍스트, 도구 호출, 그리고 일종의 영속성을 한 단계 끌어올린다."
 > — [Andrej Karpathy](https://x.com/karpathy/status/2024987174077432126)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
 > Claw 생태계의 모든 것을 담은 큐레이션 리스트 — 플랫폼, 도구, 보안, 하드웨어, 커뮤니티 등.
 
 [English](README.md) | **한국어**
@@ -59,7 +57,6 @@ Claw는 항시 가동되는 자율 서비스다:
 - [핵심 개념 💡](#핵심-개념-)
 - [기사 & 참고자료 📰](#기사--참고자료-)
 - [기여하기](#기여하기-)
-- [Growing](#growing)
 - [Star History](#star-history)
 - [라이선스](#라이선스)
 
@@ -71,30 +68,26 @@ Claw는 항시 가동되는 자율 서비스다:
 
 ### Tier 1 (10K+ Stars)
 
-| 이름 | 언어 | Stars | 핵심 특징 |
-|------|------|-------|-----------|
-| [OpenClaw](https://github.com/openclaw/openclaw) | TypeScript | 160K+ | 원조 — 50+ 메시징 통합, MCP 지원 |
-| [NanoBot](https://github.com/HKUDS/nanobot) | Python | 22K | 4,000줄, `pip install`, 연구 친화적 |
-| [AstrBot](https://github.com/Soulter/AstrBot) | Python | 17K | 중국 생태계, 800+ 플러그인, QQ/WeChat |
-| [PicoClaw](https://github.com/sipeed/picoclaw) | Go | 17K | <10MB RAM, $10 하드웨어, 엣지 우선 |
-| [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | Rust | 16K | WASM 샌드박스, <5MB, 1,017 테스트 |
-| [Pi](https://github.com/modelcontextprotocol/pi) | TypeScript | 14K | OpenClaw 내부 엔진 — 4개 도구, 최소 시스템 프롬프트 |
-| [NanoClaw](https://github.com/qwibitai/nanoclaw) | TypeScript | 10K | 컨테이너 격리, Agent SDK, Skills = 설정 |
-| [memU](https://github.com/NevaMind-AI/memU) | — | 7K | 장기 메모리, 지식 그래프, 개인화 |
+- [**OpenClaw**](https://github.com/openclaw/openclaw) — TypeScript, 160K+ stars. 원조 — 50+ 메시징 통합, MCP 지원
+- [**NanoBot**](https://github.com/HKUDS/nanobot) — Python, 22K stars. 4,000줄, `pip install`, 연구 친화적
+- [**AstrBot**](https://github.com/Soulter/AstrBot) — Python, 17K stars. 중국 생태계, 800+ 플러그인, QQ/WeChat
+- [**PicoClaw**](https://github.com/sipeed/picoclaw) — Go, 17K stars. <10MB RAM, $10 하드웨어, 엣지 우선
+- [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) — Rust, 16K stars. WASM 샌드박스, <5MB, 1,017 테스트
+- [**Pi**](https://github.com/modelcontextprotocol/pi) — TypeScript, 14K stars. OpenClaw 내부 엔진 — 4개 도구, 최소 시스템 프롬프트
+- [**NanoClaw**](https://github.com/qwibitai/nanoclaw) — TypeScript, 10K stars. 컨테이너 격리, Agent SDK, Skills = 설정
+- [**memU**](https://github.com/NevaMind-AI/memU) — 7K stars. 장기 메모리, 지식 그래프, 개인화
 
 ### Tier 2 (1K–10K Stars)
 
-| 이름 | 언어 | Stars | 핵심 특징 |
-|------|------|-------|-----------|
-| [Moltworker](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/) | TypeScript | 9K | Cloudflare Workers, 서버리스, 300+ 엣지 |
-| [ClawWork](https://github.com/HKUDS/ClawWork) | Python | 5K | OpenClaw/NanoBot을 44개 경제 분야에서 수입 창출하는 AI 동료로 전환 |
-| [IronClaw](https://github.com/nickclaw/ironclaw) | Rust | 2.7K | NEAR AI, WASM 샌드박스, 자기 확장 도구 |
-| [TinyClaw](https://github.com/warengonzaga/tinyclaw) | Shell/TS | 2.3K | 멀티 에이전트 팀, 플러그인 아키텍처 |
-| [NullClaw](https://github.com/nullclaw/nullclaw) | Zig | 1.4K | 678KB 바이너리, ~1MB RAM, <2ms 부팅 |
-| [Antfarm](https://github.com/antfarm-ai/antfarm) | YAML/SQLite | 1.4K | 멀티 에이전트 팀 (planner/dev/verifier) |
-| [Moltis](https://github.com/moltis-ai/moltis) | Rust | 1.3K | MCP 멀티플렉싱 게이트웨이 |
-| [zclaw](https://github.com/nickclaw/zclaw) | C | 1.2K | ESP32, 888KB 펌웨어, GPIO, Telegram |
-| [droidclaw](https://github.com/nickclaw/droidclaw) | TypeScript | 931 | 구형 안드로이드폰 → 에이전트 |
+- [**Moltworker**](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/) — TypeScript, 9K stars. Cloudflare Workers, 서버리스, 300+ 엣지
+- [**ClawWork**](https://github.com/HKUDS/ClawWork) — Python, 5K stars. OpenClaw/NanoBot을 44개 경제 분야에서 수입 창출하는 AI 동료로 전환
+- [**IronClaw**](https://github.com/nickclaw/ironclaw) — Rust, 2.7K stars. NEAR AI, WASM 샌드박스, 자기 확장 도구
+- [**TinyClaw**](https://github.com/warengonzaga/tinyclaw) — Shell/TS, 2.3K stars. 멀티 에이전트 팀, 플러그인 아키텍처
+- [**NullClaw**](https://github.com/nullclaw/nullclaw) — Zig, 1.4K stars. 678KB 바이너리, ~1MB RAM, <2ms 부팅
+- [**Antfarm**](https://github.com/antfarm-ai/antfarm) — YAML/SQLite, 1.4K stars. 멀티 에이전트 팀 (planner/dev/verifier)
+- [**Moltis**](https://github.com/moltis-ai/moltis) — Rust, 1.3K stars. MCP 멀티플렉싱 게이트웨이
+- [**zclaw**](https://github.com/nickclaw/zclaw) — C, 1.2K stars. ESP32, 888KB 펌웨어, GPIO, Telegram
+- [**droidclaw**](https://github.com/nickclaw/droidclaw) — TypeScript, 931 stars. 구형 안드로이드폰 → 에이전트
 
 ### 신생 (<1K Stars)
 
@@ -117,28 +110,24 @@ Claw는 항시 가동되는 자율 서비스다:
 
 ### OpenClaw 호스팅
 
-| 이름 | 가격 | 특징 |
-|------|------|------|
-| [EasyClaw](https://easyclaw.com) | $49/월 | 원클릭 배포, 보안 관리, 네이티브 앱 (Mac/Win) |
-| [OpenClawd.ai](https://openclawd.ai) | — | 공식 호스팅, 인증/암호화/격리 기본 |
-| [ClawHost](https://github.com/bfzli/clawhost) | — | 오픈소스, VPS 자동 프로비저닝 |
-| [xCloud](https://xcloud.host/openclaw-hosting/) | — | 완전 관리형, 5분 내 배포 |
-| [OVHcloud](https://www.ovhcloud.com/en/vps/vps-openclaw/) | — | VPS 기반 |
-| [Hostinger](https://www.hostinger.com/vps/docker/openclaw) | — | Docker 기반 VPS |
-| [Kimi Claw](https://www.marktechpost.com/2026/02/15/moonshot-ai-launches-kimi-claw-native-openclaw-on-kimi-com-with-5000-community-skills-and-40gb-cloud-storage-now/) | — | Moonshot AI 클라우드 네이티브 OpenClaw, 5,000+ 스킬, 40GB 스토리지, Kimi K2.5 (1T MoE) |
+- [**EasyClaw**](https://easyclaw.com) — $49/월. 원클릭 배포, 보안 관리, 네이티브 앱 (Mac/Win)
+- [**OpenClawd.ai**](https://openclawd.ai) — 공식 호스팅, 인증/암호화/격리 기본
+- [**ClawHost**](https://github.com/bfzli/clawhost) — 오픈소스, VPS 자동 프로비저닝
+- [**xCloud**](https://xcloud.host/openclaw-hosting/) — 완전 관리형, 5분 내 배포
+- [**OVHcloud**](https://www.ovhcloud.com/en/vps/vps-openclaw/) — VPS 기반
+- [**Hostinger**](https://www.hostinger.com/vps/docker/openclaw) — Docker 기반 VPS
+- [**Kimi Claw**](https://www.marktechpost.com/2026/02/15/moonshot-ai-launches-kimi-claw-native-openclaw-on-kimi-com-with-5000-community-skills-and-40gb-cloud-storage-now/) — Moonshot AI 클라우드 네이티브 OpenClaw, 5,000+ 스킬, 40GB 스토리지, Kimi K2.5 (1T MoE)
 
 ### 매니지드 AI 에이전트 서비스
 
-| 이름 | 특징 |
-|------|------|
-| [Lindy](https://lindy.ai) | iMessage 기반, 400K 사용자, $50/월, SOC2/HIPAA |
-| [Manus](https://manus.im) | Meta 인수 ($2-3B), 자율 실행, 코드 배포 |
-| [Poke](https://poke.ai) | 메시징 네이티브, 프라이버시 우선 |
-| [Pulsed](https://pulsed.ai) | 12+ 도구 통합 (Gmail, Slack, Notion 등) |
-| [Ako](https://ako.ai) | Slack 네이티브, AI를 팀 직원으로 |
-| [Nebula](https://nebula.ai) | Slack 유사 인터페이스, 24/7 워크플로우 |
-| [HappyCapy](https://happycapy.ai) | 브라우저 기반 WYSIWYG |
-| [Knolli](https://www.knolli.ai/) | 노코드 AI 코파일럿 빌더, 멀티 에이전트, 화이트라벨링, 분석 |
+- [**Lindy**](https://lindy.ai) — iMessage 기반, 400K 사용자, $50/월, SOC2/HIPAA
+- [**Manus**](https://manus.im) — Meta 인수 ($2-3B), 자율 실행, 코드 배포
+- [**Poke**](https://poke.ai) — 메시징 네이티브, 프라이버시 우선
+- [**Pulsed**](https://pulsed.ai) — 12+ 도구 통합 (Gmail, Slack, Notion 등)
+- [**Ako**](https://ako.ai) — Slack 네이티브, AI를 팀 직원으로
+- [**Nebula**](https://nebula.ai) — Slack 유사 인터페이스, 24/7 워크플로우
+- [**HappyCapy**](https://happycapy.ai) — 브라우저 기반 WYSIWYG
+- [**Knolli**](https://www.knolli.ai/) — 노코드 AI 코파일럿 빌더, 멀티 에이전트, 화이트라벨링, 분석
 
 <br>
 
@@ -146,12 +135,10 @@ Claw는 항시 가동되는 자율 서비스다:
 
 > 데스크톱과 모바일에서 Claw 기능을 사용할 수 있는 앱들.
 
-| 이름 | 플랫폼 | 특징 |
-|------|--------|------|
-| Lazzy | macOS | 커서 위 플로팅, 800+ MCP, 로컬 전용 |
-| Groovy | WhatsApp | WhatsApp 조율, 마케팅 분석 |
-| Majordomo | iOS | 주거용 프록시 차별화 |
-| Viola | 크로스플랫폼 | 음성 우선, 온디바이스 처리 |
+- **Lazzy** — macOS. 커서 위 플로팅, 800+ MCP, 로컬 전용
+- **Groovy** — WhatsApp. WhatsApp 조율, 마케팅 분석
+- **Majordomo** — iOS. 주거용 프록시 차별화
+- **Viola** — 크로스플랫폼. 음성 우선, 온디바이스 처리
 
 <br>
 
@@ -159,10 +146,8 @@ Claw는 항시 가동되는 자율 서비스다:
 
 > AI 에이전트(와 그 인간들)가 모이는 소셜 네트워크와 커뮤니티.
 
-| 이름 | 설명 |
-|------|------|
-| [Moltbook](https://moltbook.com) | AI 에이전트 전용 소셜 네트워크 (Reddit 형식), 1.6M+ 에이전트, 인간은 관찰만 |
-| [봇마당 (BotMadang)](https://botmadang.org) | 한국어 AI 에이전트 커뮤니티 (hunkim), MCP 서버 연동, OpenClaw 등록 가능 |
+- [**Moltbook**](https://moltbook.com) — AI 에이전트 전용 소셜 네트워크 (Reddit 형식), 1.6M+ 에이전트, 인간은 관찰만
+- [**봇마당 (BotMadang)**](https://botmadang.org) — 한국어 AI 에이전트 커뮤니티 (hunkim), MCP 서버 연동, OpenClaw 등록 가능
 
 <br>
 
@@ -170,10 +155,8 @@ Claw는 항시 가동되는 자율 서비스다:
 
 > Claw의 능력을 확장하는 스킬을 찾고, 공유하고, 설치한다.
 
-| 이름 | 설명 |
-|------|------|
-| [ClawHub](https://clawhub.ai) | OpenClaw 공식 스킬 레지스트리, 3,286+ 스킬, 벡터 검색 |
-| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 커뮤니티 스킬 모음 |
+- [**ClawHub**](https://clawhub.ai) — OpenClaw 공식 스킬 레지스트리, 3,286+ 스킬, 벡터 검색
+- [**awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) — 커뮤니티 스킬 모음
 
 <br>
 
@@ -181,13 +164,11 @@ Claw는 항시 가동되는 자율 서비스다:
 
 > 함께 협업하는 AI 에이전트 팀을 관리한다.
 
-| 이름 | 설명 |
-|------|------|
-| [claw-empire](https://github.com/GreenSheep01201/claw-empire) | 픽셀아트 오피스 UI로 다중 에이전트(Claude Code, Codex CLI 등) 관리 |
-| [openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) | AI 에이전트 오케스트레이션 대시보드 |
-| [AionUi](https://github.com/iOfficeAI/AionUi) | 로컬 Cowork 앱, Gemini CLI/Claude Code/Goose 등 통합 |
-| [GasTown](https://github.com/steveyegge/gastown) | Steve Yegge의 멀티 에이전트 워크스페이스 — "Mayor"가 git 기반 "Polecat" 오케스트레이션 (10K 스타) |
-| [Claw-Kanban](https://github.com/GreenSheep01201/Claw-Kanban) | 6컬럼 칸반으로 Claude Code, Codex CLI, Gemini CLI에 작업 라우팅, 실시간 터미널 모니터링 |
+- [**claw-empire**](https://github.com/GreenSheep01201/claw-empire) — 픽셀아트 오피스 UI로 다중 에이전트(Claude Code, Codex CLI 등) 관리
+- [**openclaw-mission-control**](https://github.com/abhi1693/openclaw-mission-control) — AI 에이전트 오케스트레이션 대시보드
+- [**AionUi**](https://github.com/iOfficeAI/AionUi) — 로컬 Cowork 앱, Gemini CLI/Claude Code/Goose 등 통합
+- [**GasTown**](https://github.com/steveyegge/gastown) — Steve Yegge의 멀티 에이전트 워크스페이스 — "Mayor"가 git 기반 "Polecat" 오케스트레이션 (10K 스타)
+- [**Claw-Kanban**](https://github.com/GreenSheep01201/Claw-Kanban) — 6컬럼 칸반으로 Claude Code, Codex CLI, Gemini CLI에 작업 라우팅, 실시간 터미널 모니터링
 
 <br>
 
@@ -211,11 +192,9 @@ Claw는 항시 가동되는 자율 서비스다:
 
 ### 보안 도구
 
-| 이름 | 설명 |
-|------|------|
-| [SecureClaw](https://github.com/adversa-ai/secureclaw) | OWASP 정렬 플러그인/스킬 — 56개 감사 체크, 5개 강화 모듈, MITRE ATLAS 대응 |
-| [ClawSec](https://www.sentinelone.com/blog/clawsec-hardening-openclaw-agents-from-the-inside-out/) | SentinelOne "스킬의 스킬" — 공급망 무결성, 보안 태세 강화, 제로트러스트 통신 |
-| [ClawKeeper](https://github.com/rad-security/clawkeeper) | RAD Security 스캐너 — 5단계 42개 체크로 설정 오류, 자격증명, 네트워크 강화 |
+- [**SecureClaw**](https://github.com/adversa-ai/secureclaw) — OWASP 정렬 플러그인/스킬 — 56개 감사 체크, 5개 강화 모듈, MITRE ATLAS 대응
+- [**ClawSec**](https://www.sentinelone.com/blog/clawsec-hardening-openclaw-agents-from-the-inside-out/) — SentinelOne "스킬의 스킬" — 공급망 무결성, 보안 태세 강화, 제로트러스트 통신
+- [**ClawKeeper**](https://github.com/rad-security/clawkeeper) — RAD Security 스캐너 — 5단계 42개 체크로 설정 오류, 자격증명, 네트워크 강화
 
 ### 보안 가이드 & 리소스
 
@@ -245,12 +224,10 @@ Claw는 항시 가동되는 자율 서비스다:
 
 > Claw 운영을 위한 추천 하드웨어 — Mac Mini부터 $5 마이크로컨트롤러까지.
 
-| 하드웨어 | 용도 | 참고 |
-|----------|------|------|
-| Mac Mini M4 Pro 64GB | 추천 셋업 — 통합 메모리로 로컬 LLM | [셋업 가이드](https://www.marc0.dev/en/blog/openclaw-mac-mini-the-complete-guide-to-running-your-own-ai-agent-in-2026-1770057455419) |
-| Raspberry Pi | 저가형 대안 | [itsfoss 가이드](https://itsfoss.com/openclaw-alternatives/), [Goose+RPi](https://block.github.io/goose/blog/2026/02/06/rpi-openclaw-alternative/) |
-| ESP32 | IoT 에이전트 (zclaw, MimiClaw) | 888KB~수MB, GPIO 제어 |
-| 구형 Android폰 | droidclaw로 재활용 | — |
+- **Mac Mini M4 Pro 64GB** — 추천 셋업, 통합 메모리로 로컬 LLM. [셋업 가이드](https://www.marc0.dev/en/blog/openclaw-mac-mini-the-complete-guide-to-running-your-own-ai-agent-in-2026-1770057455419)
+- **Raspberry Pi** — 저가형 대안. [itsfoss 가이드](https://itsfoss.com/openclaw-alternatives/), [Goose+RPi](https://block.github.io/goose/blog/2026/02/06/rpi-openclaw-alternative/)
+- **ESP32** — IoT 에이전트 (zclaw, MimiClaw), 888KB~수MB, GPIO 제어
+- **구형 Android폰** — droidclaw로 재활용
 
 <br>
 
@@ -320,10 +297,6 @@ Claw는 항시 가동되는 자율 서비스다:
 ## 기여하기 [🔝](#awesome-claws)
 
 기여를 환영합니다! PR을 제출하기 전에 [기여 가이드라인](CONTRIBUTING.md)을 읽어주세요.
-
-## Growing
-
-[![Stargazers over time](https://starchart.cc/jaehongpark-agent/awesome-claws.svg?variant=adaptive)](https://starchart.cc/jaehongpark-agent/awesome-claws)
 
 ## Star History
 
