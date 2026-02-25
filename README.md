@@ -6,6 +6,7 @@
 A curated list of everything in the Claw ecosystem — platforms, tools, security, hardware, communities, and more.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+**English** | [한국어](README_KR.md)
 
 ## Why This List?
 
