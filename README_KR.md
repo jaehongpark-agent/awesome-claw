@@ -156,6 +156,7 @@ Claw는 항시 가동되는 자율 서비스다:
 
 - [**ClawHub**](https://clawhub.ai) — OpenClaw 공식 스킬 레지스트리, 5,700+ 스킬, 벡터 기반 시맨틱 검색, semver 버저닝
 - [**awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) — 커뮤니티 스킬 모음
+- [**TweetClaw**](https://github.com/Xquik-dev/tweetclaw) - OpenClaw용 X/Twitter 자동화 플러그인. 트윗과 답글 검색, 팔로워 내보내기, 트윗 모니터링, 웹훅, 미디어 워크플로, 추첨, 승인 기반 게시와 답글을 `@xquik/tweetclaw` npm 패키지로 처리한다.
 
 <br>
 

@@ -149,6 +149,7 @@ In short, a Claw is not a tool you use — it's a **digital entity that coexists
 
 - [**ClawHub**](https://clawhub.ai) — Official OpenClaw skill registry, 5,700+ skills, vector-based semantic search, semver versioning
 - [**awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) — Community-curated skill collection
+- [**TweetClaw**](https://github.com/Xquik-dev/tweetclaw) - OpenClaw plugin for X/Twitter automation: search tweets and replies, export followers, monitor tweets, webhooks, media workflows, giveaway draws, and approval-gated posts or replies via the `@xquik/tweetclaw` npm package.
 
 <br>
 
